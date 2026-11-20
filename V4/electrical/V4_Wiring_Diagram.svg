@@ -1,0 +1,410 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1900" height="1360" viewBox="0 0 1900 1360" font-family="Helvetica, Arial, sans-serif">
+<style>.t{font-size:15px;font-weight:700;text-anchor:middle;fill:#111}.s{font-size:12px;text-anchor:middle;fill:#444}.p{font-size:11.5px;fill:#111}.w{font-size:11.5px;font-weight:700}.h{font-size:24px;font-weight:700;fill:#111}.n{font-size:13px;fill:#222}.g{font-size:11px;font-weight:700}</style>
+<rect width="1900" height="1360" fill="#fff"/>
+<text x="20" y="38" class="h">Tarp Winch v4: Wiring Diagram (12 V DC, battery powered)</text>
+<text x="20" y="62" class="n">All power at the pool is extra-low-voltage DC from a battery. No mains wiring at the starting block. Charge away from the water.</text>
+<rect x="20" y="85" width="1390" height="865" rx="14" fill="none" stroke="#b8a000" stroke-width="2.5" stroke-dasharray="10 6"/>
+<text x="470" y="104" class="w" fill="#8a7800">IP67 BATTERY / CONTROLLER BOX (yellow box in the CAD, on the deck). Every cable leaves through an IP68 gland.</text>
+<rect x="60" y="140" width="200" height="150" rx="8" fill="#fff4e0" stroke="#333" stroke-width="2"/>
+<text x="160" y="162" class="t">BT1 BATTERY</text>
+<text x="160" y="181" class="s">12 V LiFePO4 (12.8 V nom.)</text>
+<text x="160" y="196" class="s">20 Ah, built-in BMS</text>
+<text x="160" y="211" class="s">≥ 40 A continuous</text>
+<text x="160" y="226" class="s">≈ 256 Wh</text>
+<circle cx="260" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="260" y="191" class="p" text-anchor="middle">+</text>
+<circle cx="260" cy="250" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="260" y="267" class="p" text-anchor="middle">−</text>
+<rect x="320" y="175" width="120" height="50" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="380" y="197" class="t">F1  40 A</text>
+<text x="380" y="216" class="s">MIDI fuse</text>
+<circle cx="320" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="440" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="520" y="140" width="200" height="140" rx="8" fill="#eef4ff" stroke="#333" stroke-width="2"/>
+<text x="620" y="162" class="t">K1 MAIN CONTACTOR</text>
+<text x="620" y="181" class="s">100 A cont.-duty, 12 V coil</text>
+<text x="620" y="196" class="s">normally open: closes only</text>
+<text x="620" y="211" class="s">while the safety loop is made</text>
+<circle cx="520" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="529" y="204" class="p" text-anchor="start">A1</text>
+<circle cx="720" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="711" y="204" class="p" text-anchor="end">A2</text>
+<circle cx="580" cy="280" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="680" cy="280" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="580" y="272" class="p" text-anchor="middle">coil +</text>
+<text x="680" y="272" class="p" text-anchor="middle">coil −</text>
+<rect x="860" y="140" width="220" height="200" rx="8" fill="#eefaf0" stroke="#333" stroke-width="2"/>
+<text x="970" y="162" class="t">U4 MOTOR DRIVER</text>
+<text x="970" y="181" class="s">Cytron MD30C, 30 A cont.</text>
+<text x="970" y="196" class="s">5–30 V, brushed DC</text>
+<text x="970" y="211" class="s">PWM + DIR inputs (3.3 V ok)</text>
+<circle cx="860" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="869" y="204" class="p" text-anchor="start">B+</text>
+<circle cx="860" cy="300" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="869" y="304" class="p" text-anchor="start">B−</text>
+<circle cx="1080" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1071" y="204" class="p" text-anchor="end">M+</text>
+<circle cx="1080" cy="300" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1071" y="304" class="p" text-anchor="end">M−</text>
+<circle cx="920" cy="340" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="970" cy="340" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1020" cy="340" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="920" y="332" class="p" text-anchor="middle">PWM</text>
+<text x="970" y="332" class="p" text-anchor="middle">DIR</text>
+<text x="1020" y="332" class="p" text-anchor="middle">GND</text>
+<rect x="1130" y="160" width="140" height="70" rx="8" fill="#f3eefc" stroke="#333" stroke-width="2"/>
+<text x="1200" y="182" class="t">U3 ACS758-050B</text>
+<text x="1200" y="201" class="s">current sensor</text>
+<circle cx="1130" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1270" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1138" y="222" class="p" text-anchor="start">IP+</text>
+<text x="1262" y="222" class="p" text-anchor="end">IP−</text>
+<circle cx="1160" cy="160" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1200" cy="160" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1240" cy="160" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="1460" y="140" width="300" height="190" rx="8" fill="#eceff3" stroke="#333" stroke-width="2"/>
+<text x="1610" y="162" class="t">M1 WORM GEARMOTOR</text>
+<text x="1610" y="181" class="s">12 V wiper-style, 32 N·m</text>
+<text x="1610" y="196" class="s">≈ 50 rpm no load</text>
+<text x="1610" y="211" class="s">self-locking worm</text>
+<text x="1610" y="226" class="s">drives 12T pinion → 48T gear</text>
+<circle cx="1460" cy="200" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="204" class="p" text-anchor="start">+</text>
+<circle cx="1460" cy="300" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="304" class="p" text-anchor="start">−</text>
+<polyline points="260,200 320,200" fill="none" stroke="#d00000" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="440,200 520,200" fill="none" stroke="#d00000" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="480" cy="200" r="4.5" fill="#d00000"/>
+<polyline points="720,200 860,200" fill="none" stroke="#d00000" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="780" cy="200" r="4.5" fill="#d00000"/>
+<text x="470" y="192" class="p" text-anchor="middle">10 AWG</text>
+<polyline points="1080,200 1130,200" fill="none" stroke="#e85d04" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="1270,200 1460,200" fill="none" stroke="#e85d04" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="1080,300 1460,300" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-linejoin="round"/>
+<text x="1350" y="192" class="p" text-anchor="middle">M+</text>
+<text x="1350" y="292" class="p" text-anchor="middle">M−</text>
+<text x="1430" y="345" class="p" text-anchor="middle">2 × 10 AWG outdoor motor cable, 3 m</text>
+<polyline points="260,250 290,250 290,410 1300,410" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="860,300 800,300 800,410" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round"/>
+<circle cx="800" cy="410" r="4.5" fill="#222"/>
+<text x="300" y="404" class="p" text-anchor="start">GND bus (10 AWG)</text>
+<polyline points="580,280 580,310" fill="none" stroke="#7b2cbf" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="545.2" y="310" width="69.6" height="18" rx="9" fill="#fff" stroke="#7b2cbf" stroke-width="1.6"/>
+<text x="580" y="323" class="g" text-anchor="middle" fill="#7b2cbf">K1 COIL+</text>
+<polyline points="680,280 680,410" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="680" cy="410" r="4.5" fill="#222"/>
+<polygon points="622,318 638,318 630,330" fill="#fff" stroke="#333" stroke-width="1.6"/>
+<polyline points="622,332 638,332" fill="none" stroke="#333" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="630,280 630,318" fill="none" stroke="#333" stroke-width="1.4" stroke-linejoin="round"/>
+<polyline points="630,332 630,345 680,345" fill="none" stroke="#333" stroke-width="1.4" stroke-linejoin="round"/>
+<text x="632" y="362" class="p" text-anchor="middle">D1 1N5408</text>
+<polyline points="780,200 780,245" fill="none" stroke="#d00000" stroke-width="1.8" stroke-linejoin="round"/>
+<polyline points="768,245 792,245" fill="none" stroke="#333" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="768,253 792,253" fill="none" stroke="#333" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="780,253 780,300 800,300" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="790" y="232" class="p" text-anchor="start">C1</text>
+<text x="790" y="274" class="p" text-anchor="start">1000 µF</text>
+<polyline points="480,200 480,160" fill="none" stroke="#d00000" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="448.8" y="142" width="62.4" height="18" rx="9" fill="#fff" stroke="#d00000" stroke-width="1.6"/>
+<text x="480" y="155" class="g" text-anchor="middle" fill="#d00000">+12V F1</text>
+<polyline points="780,200 780,160" fill="none" stroke="#d00000" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="748.8" y="142" width="62.4" height="18" rx="9" fill="#fff" stroke="#d00000" stroke-width="1.6"/>
+<text x="780" y="155" class="g" text-anchor="middle" fill="#d00000">+12V SW</text>
+<polyline points="920,340 920,364" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="903.2" y="364" width="33.6" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="920" y="377" class="g" text-anchor="middle" fill="#2a9d8f">PWM</text>
+<polyline points="970,340 970,364" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="953.2" y="364" width="33.6" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="970" y="377" class="g" text-anchor="middle" fill="#2a9d8f">DIR</text>
+<polyline points="1020,340 1020,364" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1003.2" y="364" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="1020" y="377" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="1160,160 1160,140" fill="none" stroke="#e85d04" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1143.2" y="122" width="33.6" height="18" rx="9" fill="#fff" stroke="#e85d04" stroke-width="1.6"/>
+<text x="1160" y="135" class="g" text-anchor="middle" fill="#e85d04">+5V</text>
+<polyline points="1200,160 1200,120" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1183.2" y="102" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="1200" y="115" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="1240,160 1240,140" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1198" y="122" width="84" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="1240" y="135" class="g" text-anchor="middle" fill="#2a9d8f">I-SENSE 5V</text>
+<rect x="150" y="460" width="200" height="110" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="250" y="482" class="t">U2 BUCK 12→5 V</text>
+<text x="250" y="501" class="s">3 A, input 8–40 V</text>
+<text x="250" y="516" class="s">feeds the Pico + sensor</text>
+<circle cx="150" cy="500" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="150" cy="540" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="350" cy="500" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="160" y="504" class="p" text-anchor="start">VIN</text>
+<text x="160" y="544" class="p" text-anchor="start">GND</text>
+<text x="340" y="504" class="p" text-anchor="end">5 V</text>
+<polyline points="150,500 130,500" fill="none" stroke="#d00000" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="67.6" y="491" width="62.4" height="18" rx="9" fill="#fff" stroke="#d00000" stroke-width="1.6"/>
+<text x="98.8" y="504" class="g" text-anchor="middle" fill="#d00000">+12V SW</text>
+<polyline points="150,540 130,540" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="96.4" y="531" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="113.2" y="544" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="350,500 370,500" fill="none" stroke="#e85d04" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="370" y="491" width="33.6" height="18" rx="9" fill="#fff" stroke="#e85d04" stroke-width="1.6"/>
+<text x="386.8" y="504" class="g" text-anchor="middle" fill="#e85d04">+5V</text>
+<rect x="150" y="620" width="200" height="100" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="250" y="642" class="t">R1 / R2 DIVIDER</text>
+<text x="250" y="661" class="s">100 kΩ / 22 kΩ</text>
+<text x="250" y="676" class="s">14.6 V → 2.6 V at GP27</text>
+<circle cx="150" cy="660" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="150" cy="700" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="350" cy="680" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<polyline points="150,660 130,660" fill="none" stroke="#d00000" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="67.6" y="651" width="62.4" height="18" rx="9" fill="#fff" stroke="#d00000" stroke-width="1.6"/>
+<text x="98.8" y="664" class="g" text-anchor="middle" fill="#d00000">+12V SW</text>
+<polyline points="150,700 130,700" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="96.4" y="691" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="113.2" y="704" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="350,680 370,680" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="370" y="671" width="62.4" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="401.2" y="684" class="g" text-anchor="middle" fill="#2a9d8f">V-SENSE</text>
+<rect x="150" y="770" width="200" height="100" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="250" y="792" class="t">R3 / R4 DIVIDER</text>
+<text x="250" y="811" class="s">10 kΩ / 20 kΩ</text>
+<text x="250" y="826" class="s">ACS 0–5 V → 0–3.3 V</text>
+<circle cx="150" cy="810" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="150" cy="850" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="350" cy="830" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<polyline points="150,810 130,810" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="46" y="801" width="84" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="88" y="814" class="g" text-anchor="middle" fill="#2a9d8f">I-SENSE 5V</text>
+<polyline points="150,850 130,850" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="96.4" y="841" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="113.2" y="854" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="350,830 370,830" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="370" y="821" width="62.4" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="401.2" y="834" class="g" text-anchor="middle" fill="#2a9d8f">I-SENSE</text>
+<rect x="530" y="450" width="280" height="440" rx="8" fill="#e9f7ef" stroke="#333" stroke-width="2"/>
+<text x="670" y="472" class="t">U1 RASPBERRY PI PICO</text>
+<text x="670" y="491" class="s">controller, MicroPython</text>
+<text x="670" y="506" class="s">V4/code (main.py)</text>
+<text x="670" y="521" class="s">3.3 V logic</text>
+<circle cx="530" cy="500" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="539" y="504" class="p" text-anchor="start">VSYS</text>
+<polyline points="530,500 504,500" fill="none" stroke="#e85d04" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="470.4" y="491" width="33.6" height="18" rx="9" fill="#fff" stroke="#e85d04" stroke-width="1.6"/>
+<text x="487.2" y="504" class="g" text-anchor="middle" fill="#e85d04">+5V</text>
+<circle cx="530" cy="540" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="539" y="544" class="p" text-anchor="start">GND</text>
+<polyline points="530,540 504,540" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="470.4" y="531" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="487.2" y="544" class="g" text-anchor="middle" fill="#222">GND</text>
+<circle cx="530" cy="600" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="539" y="604" class="p" text-anchor="start">GP27 ADC1</text>
+<polyline points="530,600 504,600" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="441.6" y="591" width="62.4" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="472.8" y="604" class="g" text-anchor="middle" fill="#2a9d8f">V-SENSE</text>
+<circle cx="530" cy="640" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="539" y="644" class="p" text-anchor="start">GP26 ADC0</text>
+<polyline points="530,640 504,640" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="441.6" y="631" width="62.4" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="472.8" y="644" class="g" text-anchor="middle" fill="#2a9d8f">I-SENSE</text>
+<circle cx="530" cy="720" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="539" y="724" class="p" text-anchor="start">GP15</text>
+<polyline points="530,720 504,720" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="463.2" y="711" width="40.8" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="483.6" y="724" class="g" text-anchor="middle" fill="#2a9d8f">BUZZ</text>
+<circle cx="530" cy="760" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="539" y="764" class="p" text-anchor="start">GP14</text>
+<polyline points="530,760 504,760" fill="none" stroke="#4d7c0f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="470.4" y="751" width="33.6" height="18" rx="9" fill="#fff" stroke="#4d7c0f" stroke-width="1.6"/>
+<text x="487.2" y="764" class="g" text-anchor="middle" fill="#4d7c0f">LED</text>
+<circle cx="810" cy="500" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="801" y="504" class="p" text-anchor="end">GP16 PWM</text>
+<polyline points="810,500 836,500" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="836" y="491" width="33.6" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="852.8" y="504" class="g" text-anchor="middle" fill="#2a9d8f">PWM</text>
+<circle cx="810" cy="540" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="801" y="544" class="p" text-anchor="end">GP17 DIR</text>
+<polyline points="810,540 836,540" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="836" y="531" width="33.6" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="852.8" y="544" class="g" text-anchor="middle" fill="#2a9d8f">DIR</text>
+<circle cx="810" cy="620" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="801" y="624" class="p" text-anchor="end">GP2</text>
+<polyline points="810,620 836,620" fill="none" stroke="#4d7c0f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="836" y="611" width="55.2" height="18" rx="9" fill="#fff" stroke="#4d7c0f" stroke-width="1.6"/>
+<text x="863.6" y="624" class="g" text-anchor="middle" fill="#4d7c0f">BTN IN</text>
+<circle cx="810" cy="660" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="801" y="664" class="p" text-anchor="end">GP3</text>
+<polyline points="810,660 836,660" fill="none" stroke="#4d7c0f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="836" y="651" width="62.4" height="18" rx="9" fill="#fff" stroke="#4d7c0f" stroke-width="1.6"/>
+<text x="867.2" y="664" class="g" text-anchor="middle" fill="#4d7c0f">BTN OUT</text>
+<circle cx="810" cy="720" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="801" y="724" class="p" text-anchor="end">GP4</text>
+<polyline points="810,720 836,720" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="836" y="711" width="48" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="860" y="724" class="g" text-anchor="middle" fill="#2a9d8f">LIMIT</text>
+<circle cx="810" cy="780" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="801" y="784" class="p" text-anchor="end">GP5</text>
+<polyline points="810,780 836,780" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="836" y="771" width="48" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="860" y="784" class="g" text-anchor="middle" fill="#2a9d8f">LATCH</text>
+<text x="670" y="870" class="s" text-anchor="middle">inputs use internal pull-ups</text>
+<rect x="1010" y="460" width="220" height="130" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="1120" y="482" class="t">BZ1 BUZZER + Q1</text>
+<text x="1120" y="501" class="s">5 V buzzer, IP65</text>
+<text x="1120" y="516" class="s">Q1 2N2222 low-side</text>
+<text x="1120" y="531" class="s">1 kΩ base resistor</text>
+<circle cx="1010" cy="510" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1010" cy="550" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1230" cy="510" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1020" y="514" class="p" text-anchor="start">base</text>
+<text x="1020" y="554" class="p" text-anchor="start">emitter</text>
+<text x="1220" y="514" class="p" text-anchor="end">BZ +</text>
+<polyline points="1010,510 990,510" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="949.2" y="501" width="40.8" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="969.6" y="514" class="g" text-anchor="middle" fill="#2a9d8f">BUZZ</text>
+<polyline points="1010,550 990,550" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="956.4" y="541" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="973.2" y="554" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="1230,510 1250,510" fill="none" stroke="#e85d04" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1250" y="501" width="33.6" height="18" rx="9" fill="#fff" stroke="#e85d04" stroke-width="1.6"/>
+<text x="1266.8" y="514" class="g" text-anchor="middle" fill="#e85d04">+5V</text>
+<text x="1010" y="630" class="w" fill="#7b2cbf">Safety loop (purple): K1's coil only gets power</text>
+<text x="1010" y="646" class="w" fill="#7b2cbf">while every item in it is closed</text>
+<rect x="1010" y="660" width="90" height="60" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="1055" y="682" class="t">F2  3 A</text>
+<text x="1055" y="701" class="s">control fuse</text>
+<circle cx="1010" cy="690" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1100" cy="690" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="1115" y="660" width="90" height="60" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="1160" y="682" class="t">S1 KEY</text>
+<text x="1160" y="701" class="s">removable key</text>
+<circle cx="1115" cy="690" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1205" cy="690" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<rect x="1220" y="660" width="90" height="60" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="1265" y="682" class="t">S2 E-STOP</text>
+<text x="1265" y="701" class="s">box, N.C.</text>
+<circle cx="1220" cy="690" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1310" cy="690" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<polyline points="1010,690 990,690" fill="none" stroke="#d00000" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="927.6" y="681" width="62.4" height="18" rx="9" fill="#fff" stroke="#d00000" stroke-width="1.6"/>
+<text x="958.8" y="694" class="g" text-anchor="middle" fill="#d00000">+12V F1</text>
+<polyline points="1100,690 1115,690" fill="none" stroke="#7b2cbf" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="7 4"/>
+<polyline points="1205,690 1220,690" fill="none" stroke="#7b2cbf" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="7 4"/>
+<polyline points="1310,690 1310,730" fill="none" stroke="#7b2cbf" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1271.6" y="730" width="76.8" height="18" rx="9" fill="#fff" stroke="#7b2cbf" stroke-width="1.6"/>
+<text x="1310" y="743" class="g" text-anchor="middle" fill="#7b2cbf">ESTOP OUT</text>
+<circle cx="1120" cy="770" r="4.5" fill="#7b2cbf"/>
+<polyline points="1120,770 1100,770" fill="none" stroke="#7b2cbf" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1023.2" y="761" width="76.8" height="18" rx="9" fill="#fff" stroke="#7b2cbf" stroke-width="1.6"/>
+<text x="1061.6" y="774" class="g" text-anchor="middle" fill="#7b2cbf">ESTOP RET</text>
+<polyline points="1120,770 1140,770" fill="none" stroke="#7b2cbf" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1140" y="761" width="69.6" height="18" rx="9" fill="#fff" stroke="#7b2cbf" stroke-width="1.6"/>
+<text x="1174.8" y="774" class="g" text-anchor="middle" fill="#7b2cbf">K1 COIL+</text>
+<text x="1120" y="798" class="s" text-anchor="middle">pendant E-stop return feeds K1 coil +</text>
+<rect x="1010" y="830" width="300" height="90" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="1160" y="852" class="t">J1 CHARGE INLET</text>
+<text x="1160" y="871" class="s">IP67, wired straight to the battery</text>
+<text x="1160" y="886" class="s">with its own 15 A fuse (charge only)</text>
+<text x="1440" y="400" class="w" fill="#555">OUTSIDE THE BOX</text>
+<rect x="1460" y="420" width="300" height="230" rx="8" fill="#fff8d6" stroke="#333" stroke-width="2"/>
+<text x="1610" y="442" class="t">PENDANT</text>
+<text x="1610" y="461" class="s">IP67, 6-core cable, 5 m</text>
+<text x="1610" y="476" class="s">hold-to-run: let go = stop</text>
+<circle cx="1460" cy="500" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="504" class="p" text-anchor="start">IN (green, N.O.)</text>
+<polyline points="1460,500 1430,500" fill="none" stroke="#4d7c0f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1374.8" y="491" width="55.2" height="18" rx="9" fill="#fff" stroke="#4d7c0f" stroke-width="1.6"/>
+<text x="1402.4" y="504" class="g" text-anchor="middle" fill="#4d7c0f">BTN IN</text>
+<circle cx="1460" cy="535" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="539" class="p" text-anchor="start">OUT (black, N.O.)</text>
+<polyline points="1460,535 1430,535" fill="none" stroke="#4d7c0f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1367.6" y="526" width="62.4" height="18" rx="9" fill="#fff" stroke="#4d7c0f" stroke-width="1.6"/>
+<text x="1398.8" y="539" class="g" text-anchor="middle" fill="#4d7c0f">BTN OUT</text>
+<circle cx="1460" cy="570" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="574" class="p" text-anchor="start">COM</text>
+<polyline points="1460,570 1430,570" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1396.4" y="561" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="1413.2" y="574" class="g" text-anchor="middle" fill="#222">GND</text>
+<circle cx="1460" cy="605" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="609" class="p" text-anchor="start">LED + (220 Ω)</text>
+<polyline points="1460,605 1430,605" fill="none" stroke="#4d7c0f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1396.4" y="596" width="33.6" height="18" rx="9" fill="#fff" stroke="#4d7c0f" stroke-width="1.6"/>
+<text x="1413.2" y="609" class="g" text-anchor="middle" fill="#4d7c0f">LED</text>
+<circle cx="1760" cy="520" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1760" cy="600" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1750" y="524" class="p" text-anchor="end">E-stop in</text>
+<text x="1750" y="604" class="p" text-anchor="end">E-stop out</text>
+<text x="1610" y="640" class="s" text-anchor="middle">S4 E-STOP: N.C., in series with S2</text>
+<polyline points="1760,520 1780,520" fill="none" stroke="#7b2cbf" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1780" y="511" width="76.8" height="18" rx="9" fill="#fff" stroke="#7b2cbf" stroke-width="1.6"/>
+<text x="1818.4" y="524" class="g" text-anchor="middle" fill="#7b2cbf">ESTOP OUT</text>
+<polyline points="1760,600 1780,600" fill="none" stroke="#7b2cbf" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1780" y="591" width="76.8" height="18" rx="9" fill="#fff" stroke="#7b2cbf" stroke-width="1.6"/>
+<text x="1818.4" y="604" class="g" text-anchor="middle" fill="#7b2cbf">ESTOP RET</text>
+<rect x="1460" y="690" width="300" height="100" rx="8" fill="#f6f7f9" stroke="#333" stroke-width="2"/>
+<text x="1610" y="712" class="t">S3 ROPE-IN LIMIT</text>
+<text x="1610" y="731" class="s">IP67 roller lever on the base plate</text>
+<text x="1610" y="746" class="s">N.C.: opens when the stopper ball</text>
+<text x="1610" y="761" class="s">on the rope arrives</text>
+<circle cx="1460" cy="720" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="724" class="p" text-anchor="start">C</text>
+<circle cx="1460" cy="760" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="1469" y="764" class="p" text-anchor="start">NC</text>
+<polyline points="1460,720 1430,720" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1396.4" y="711" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="1413.2" y="724" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="1460,760 1430,760" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1382" y="751" width="48" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="1406" y="764" class="g" text-anchor="middle" fill="#2a9d8f">LIMIT</text>
+<rect x="1460" y="810" width="300" height="100" rx="8" fill="#e8f1fd" stroke="#333" stroke-width="2"/>
+<text x="1610" y="832" class="t">S5 SPOOL-LATCHED SENSOR</text>
+<text x="1610" y="851" class="s">IP67 reed switch on the side plate,</text>
+<text x="1610" y="866" class="s">magnet in the ball-lock pin handle:</text>
+<text x="1610" y="881" class="s">closed only while the pin is in</text>
+<circle cx="1460" cy="845" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<circle cx="1460" cy="880" r="4.5" fill="#fff" stroke="#333" stroke-width="2"/>
+<polyline points="1460,845 1430,845" fill="none" stroke="#222" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1396.4" y="836" width="33.6" height="18" rx="9" fill="#fff" stroke="#222" stroke-width="1.6"/>
+<text x="1413.2" y="849" class="g" text-anchor="middle" fill="#222">GND</text>
+<polyline points="1460,880 1430,880" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<rect x="1382" y="871" width="48" height="18" rx="9" fill="#fff" stroke="#2a9d8f" stroke-width="1.6"/>
+<text x="1406" y="884" class="g" text-anchor="middle" fill="#2a9d8f">LATCH</text>
+<rect x="20" y="975" width="290" height="360" rx="10" fill="#fafafa" stroke="#bbb" stroke-width="1.5"/>
+<text x="38" y="1001" class="t" style="text-anchor:start">Legend</text>
+<polyline points="38,1029 88,1029" fill="none" stroke="#d00000" stroke-width="4" stroke-linejoin="round"/>
+<text x="100" y="1033" class="n">+12 V power</text>
+<polyline points="38,1057 88,1057" fill="none" stroke="#222" stroke-width="4" stroke-linejoin="round"/>
+<text x="100" y="1061" class="n">Ground / battery −</text>
+<polyline points="38,1085 88,1085" fill="none" stroke="#e85d04" stroke-width="4" stroke-linejoin="round"/>
+<text x="100" y="1089" class="n">Motor + / +5 V</text>
+<polyline points="38,1113 88,1113" fill="none" stroke="#1d4ed8" stroke-width="4" stroke-linejoin="round"/>
+<text x="100" y="1117" class="n">Motor − lead</text>
+<polyline points="38,1141 88,1141" fill="none" stroke="#7b2cbf" stroke-width="2.4" stroke-linejoin="round" stroke-dasharray="7 4"/>
+<text x="100" y="1145" class="n">E-stop safety loop (18 AWG)</text>
+<polyline points="38,1169 88,1169" fill="none" stroke="#2a9d8f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="100" y="1173" class="n">Logic signals (22 AWG)</text>
+<polyline points="38,1197 88,1197" fill="none" stroke="#4d7c0f" stroke-width="1.8" stroke-linejoin="round"/>
+<text x="100" y="1201" class="n">Pendant buttons / LED</text>
+<text x="38" y="1231" class="p">Rounded tags with the same name</text>
+<text x="38" y="1249" class="p">are the same wire. Dots = joined.</text>
+<text x="38" y="1267" class="p">Lines that cross without a dot</text>
+<text x="38" y="1285" class="p">are not connected.</text>
+<text x="330" y="1001" class="t" style="text-anchor:start">How it works</text>
+<text x="330" y="1027" class="n">1. Key S1, both E-stops (box S2, pendant S4) and fuse F2 form one series loop that powers K1's coil. Open any of them</text>
+<text x="330" y="1051" class="n">    and K1 drops out: the motor driver and the Pico lose power at the same moment.</text>
+<text x="330" y="1075" class="n">2. Hold-to-run: the motor turns only while IN or OUT is held. The code ramps up over 0.5 s and stops when released.</text>
+<text x="330" y="1099" class="n">3. Overload: above 25 A for 0.3 s it stops and beeps, so a snagged tarp can't rip the winch off the block.</text>
+<text x="330" y="1123" class="n">4. S3 is normally closed, so a broken wire reads as 'limit reached' and winding IN is blocked (fails safe).</text>
+<text x="330" y="1147" class="n">    Crimp the stopper ball on the rope about 1 m before the tarp's tow bar.</text>
+<text x="330" y="1171" class="n">5. S5 only closes while the ball-lock pin holds the spool's latch shut. Open or broken = the motor will not start.</text>
+<text x="330" y="1195" class="n">6. Below 12.0 V the controller won't start. Recharge with a 14.6 V LiFePO4 charger, key OFF, away from the pool.</text>
+<text x="330" y="1219" class="n">7. Mount F1 within 18 cm of battery +. D1 goes across the K1 coil; C1 sits right at the driver's power input.</text>
+<text x="330" y="1243" class="n">8. The worm gearbox is self-locking: when power drops, the spool holds the tarp where it is.</text>
+<rect x="1440" y="975" width="340" height="360" rx="10" fill="#eef7ff" stroke="#9cc" stroke-width="1"/>
+<text x="1458" y="1003" class="n" style="font-weight:700">MOTOR SIZING (from the sim)</text>
+<text x="1458" y="1033" class="n" style="font-weight:400">Design pull: 500 lbf (2.2 kN)</text>
+<text x="1458" y="1063" class="n" style="font-weight:400">Spool torque at 500 lbf, 4th layer: 120 N·m</text>
+<text x="1458" y="1093" class="n" style="font-weight:400">÷ 4:1 gears ÷ 0.93 → 32 N·m = motor stall</text>
+<text x="1458" y="1123" class="n" style="font-weight:400">  so the motor can't pull past ~500 lbf</text>
+<text x="1458" y="1153" class="n" style="font-weight:400">Sim peak (est. tarp): 303 lbf, 21.8 A</text>
+<text x="1458" y="1183" class="n" style="font-weight:400">Trip 25 A ≈ 340 lbf on the last layer</text>
+<text x="1458" y="1213" class="n" style="font-weight:400">Full 25 yd pull: 7.5 min, 9–10 ft/min</text>
+<text x="1458" y="1243" class="n" style="font-weight:400">≈ 13 Wh per pull → ≈ 15 pulls per charge</text>
+</svg>
